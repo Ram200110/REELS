@@ -1,0 +1,46 @@
+.video-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.video-text{
+    color:#fff;
+    display: flex;
+    margin-left: 20px;
+}
+
+.footer-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 7%;
+    gap: 30px;
+}
+.flex-box{
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+    color:rgb(254, 244, 244);
+    gap: 3px;
+    
+}
+
+.video-text > h3{
+    padding:7px 15px;
+}
+
+.follow{
+    color: #fff;
+    background-color: blue;
+    padding:7px 15px;
+    transition: 0.5s ease-in;
+}
+
+.follow:hover{
+    color: blue;
+    background-color: #fff;
+    transition: 0.5s ease-out;
+
+}
